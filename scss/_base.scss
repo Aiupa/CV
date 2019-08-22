@@ -1,0 +1,202 @@
+$blue : #20A0F8;
+$green : #A8E8A0;
+$red: #F87068;
+
+
+
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.background {
+    background: url("../img/pixelart.png");
+    background-size: cover;
+}
+
+.presentation--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presentation--photo {
+    padding: 2rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.nes-balloon {
+    width: 100%;
+}
+
+.contact--rqth {
+    color: $red;
+    margin: auto;
+    padding:2rem;
+}
+
+.contact--paragraph-center {
+    color: $blue;
+    text-align: center;
+    padding-top: 2rem;    
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.experiences, .formation, .competences, .langues, .contact {
+    width: 90%;
+    margin: auto;
+}
+
+.right{
+    text-align: right;
+}
+
+.title-section{
+    text-align: center;
+    color:$blue;
+    margin: 2rem 0 1rem 0;
+}
+
+.title{
+    color: $blue;
+}
+
+.nes-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fab, .fas {
+    font-size: 24px;
+}
+
+.experiences--emploi, .formation--emploi{
+    color: $green;
+    text-transform: uppercase;
+}
+
+.experiences--date, .formation--date{
+    color: $red;
+    text-align: right;
+}
+
+.experiences--description, .formation--date{
+    padding-bottom: 2rem;
+}
+
+.projets {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Mobile */
+@media screen and (max-width: 729px) {
+
+.img-pc {
+    display: none;
+}
+
+a, p {
+    font-size: 0.8rem;
+}
+
+.presentation, .button{
+    display: flex;
+    flex-direction: column;;
+    margin: auto;
+    text-align: center;
+    padding-top: 1.5rem;
+    color: $blue;
+}
+
+.button {
+    padding-bottom: 1.5rem;
+}
+
+i span {
+    display: none;
+}
+
+}
+
+/* Format tablette */
+@media screen and (min-width: 730px) {
+a, p{
+    font-size: 0.9rem;
+}
+
+.img-mobile {
+    display: none;
+}
+i span {
+    display: none;
+}
+.fab, .fas {
+    font-size: 64px;
+}
+
+}
+
+
+/* Format PC */
+@media screen and (min-width: 1200px) {
+a, p{
+    font-size: 1rem;   
+}
+
+.img-mobile {
+    display: none;
+}
+
+.presentation, .button {
+    margin : auto;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    padding-bottom: 2rem;
+}
+
+// Infobulle compétences - Code tout fait
+i span{	
+	display:none;
+	color:#fff;
+	background:rgba(51,51,51,0.75);
+	padding:20px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	width:auto;
+	text-align:center;
+	position: absolute;
+    z-index:10;
+    font-size: 16px;
+}
+
+i { 
+	display: inline-block;
+}
+
+i:hover span{ 
+	display:block; 
+}
+
+.fab, .fas {
+    font-size: 96px;
+}
+
+}

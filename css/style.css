@@ -16,13 +16,37 @@
 @media screen and (min-width: 1200px) {
   .navbar {
     display: flex;
-    justify-content: space-around; } }
+    justify-content: space-around;
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 1; } }
 /* Tous le reste de mon code */
+i span {
+  display: none;
+  color: #fff;
+  background: rgba(51, 51, 51, 0.75);
+  padding: 20px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  width: auto;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  font-size: 16px; }
+
+i {
+  display: inline-block; }
+
+i:hover span {
+  display: block; }
+
 * {
   font-family: 'Press Start 2P', cursive; }
 
 .background {
-  background: url("../img/pixelart.png");
+  background: url("../img/bg.jpg");
   background-size: cover; }
 
 .presentation--info {
@@ -31,7 +55,7 @@
   justify-content: center; }
 
 .presentation--photo {
-  padding: 2rem; }
+  padding: 5rem 2rem 2rem 2rem; }
 
 .contact {
   display: flex;
@@ -108,8 +132,7 @@
     flex-direction: column;
     margin: auto;
     text-align: center;
-    padding-top: 1.5rem;
-    color: #20A0F8; }
+    padding-top: 1.5rem; }
 
   .button {
     padding-bottom: 1.5rem; }
@@ -146,26 +169,6 @@
 
   .button {
     padding-bottom: 2rem; }
-
-  i span {
-    display: none;
-    color: #fff;
-    background: rgba(51, 51, 51, 0.75);
-    padding: 20px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    width: auto;
-    text-align: center;
-    position: absolute;
-    z-index: 10;
-    font-size: 16px; }
-
-  i {
-    display: inline-block; }
-
-  i:hover span {
-    display: block; }
 
   .fab, .fas {
     font-size: 96px; } }

@@ -15,10 +15,12 @@ $red: #F87068;
 }
 
 @media screen and (min-width: 1200px) {
-.navbar {
+.navbar{
     display: flex;
     justify-content: space-around;
-
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 1;
 }
-
 }

@@ -1,11 +1,5 @@
-@charset "UTF-8";
 /* Nes css */
 @import url(../node_modules/nes.css/css/nes.css);
-/* Tous les boutons */
-/* Tous les carousels*/
-/* Tous les forms, tableaux */
-/* Tous le grid nécessaire a la disposition */
-/* Toutes les sidebar */
 /* Barre de nav */
 .navbar {
   display: block;

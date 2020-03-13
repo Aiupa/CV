@@ -1,0 +1,62 @@
+h1 {
+  text-align: center;
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+p {
+  text-align: center;
+}
+
+#but {
+    border: 3px ridge #333;
+    padding: 10px;
+    text-decoration: none;
+    color:  blue;
+}
+
+#but:hover {
+    color: black;
+    background-color: yellow;
+}
+
+#game {
+    width: 600px;
+    height: 600px;
+    overflow: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+#game button {
+    border-color: #EBEBEB;
+}
+
+#game div {
+    width: 500px;
+    margin: auto;
+    clear: both;
+}
+
+#game button {
+    width: 150px;
+    height: 150px;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 8px;
+    float: left;
+}
+
+#gameStatus {
+    color: #EBEBEB;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 5px ridge #EBEBEB;
+}
+
+#monCV {
+    text-align: center;
+    color: #EBEBEB;
+    font-size: 24px;
+    margin: 1rem 0 0 0;
+}
